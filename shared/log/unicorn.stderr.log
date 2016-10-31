@@ -1,0 +1,18 @@
+
+I, [2016-10-30T18:17:47.528272 #10423]  INFO -- : Refreshing Gem list
+I, [2016-10-30T18:17:48.691024 #10423]  INFO -- : unlinking existing socket=/home/ubuntu/deployments/rails/YTTrends/shared/sockets/unicorn.sock
+I, [2016-10-30T18:17:48.691162 #10423]  INFO -- : listening on addr=/home/ubuntu/deployments/rails/YTTrends/shared/sockets/unicorn.sock fd=9
+I, [2016-10-30T18:17:48.691243 #10423]  INFO -- : worker=0 spawning...
+I, [2016-10-30T18:17:48.692439 #10423]  INFO -- : master process ready
+I, [2016-10-30T18:17:48.693210 #10426]  INFO -- : worker=0 spawned pid=10426
+I, [2016-10-30T18:17:48.693345 #10426]  INFO -- : worker=0 ready
+103.255.4.31 - - [30/Oct/2016:18:17:52 +0000] "GET /api/v1/videos HTTP/1.0" 200 - 0.0482
+I, [2016-10-30T18:18:03.319958 #10423]  INFO -- : reaped #<Process::Status: pid 10426 exit 0> worker=0
+I, [2016-10-30T18:18:03.320148 #10423]  INFO -- : master complete
+I, [2016-10-30T18:19:59.981812 #10761]  INFO -- : Refreshing Gem list
+I, [2016-10-30T18:20:01.166935 #10761]  INFO -- : unlinking existing socket=/home/ubuntu/deployments/rails/YTTrends/shared/sockets/unicorn.sock
+I, [2016-10-30T18:20:01.167081 #10761]  INFO -- : listening on addr=/home/ubuntu/deployments/rails/YTTrends/shared/sockets/unicorn.sock fd=9
+I, [2016-10-30T18:20:01.167169 #10761]  INFO -- : worker=0 spawning...
+I, [2016-10-30T18:20:01.168332 #10761]  INFO -- : master process ready
+I, [2016-10-30T18:20:01.176820 #10764]  INFO -- : worker=0 spawned pid=10764
+I, [2016-10-30T18:20:01.176950 #10764]  INFO -- : worker=0 ready
