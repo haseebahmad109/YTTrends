@@ -51,3 +51,4 @@ end
 
 gem 'httparty'
 gem 'unicorn'
+gem 'rack-cors', :require => 'rack/cors'
