@@ -22,13 +22,13 @@ module YTTrends
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-    
-    use Rack::Cors do
-      allow do
-        origins '*'
-        resource '*', headers: :any, methods: :any
-      end  
-    end
 
+    config.middleware.insert_before 0, "Rack::Cors" do
+      allow do
+        origins '*' #-> has to be "*" or specific
+        resource '*', headers: :any, methods: [:get, :post, :options]
+      end
+    end
+    
   end
 end

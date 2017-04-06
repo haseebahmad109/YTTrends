@@ -16,3 +16,191 @@ I, [2016-10-30T18:20:01.167169 #10761]  INFO -- : worker=0 spawning...
 I, [2016-10-30T18:20:01.168332 #10761]  INFO -- : master process ready
 I, [2016-10-30T18:20:01.176820 #10764]  INFO -- : worker=0 spawned pid=10764
 I, [2016-10-30T18:20:01.176950 #10764]  INFO -- : worker=0 ready
+I, [2016-11-02T20:14:30.785733 #10761]  INFO -- : reaped #<Process::Status: pid 10764 exit 0> worker=0
+I, [2016-11-02T20:14:30.786252 #10761]  INFO -- : master complete
+I, [2016-11-02T20:15:40.930716 #4868]  INFO -- : Refreshing Gem list
+/home/ubuntu/deployments/rails/YTTrends/config/application.rb:26:in `<class:Application>': uninitialized constant Rack::Cors (NameError)
+	from /home/ubuntu/deployments/rails/YTTrends/config/application.rb:10:in `<module:YTTrends>'
+	from /home/ubuntu/deployments/rails/YTTrends/config/application.rb:9:in `<top (required)>'
+	from /home/ubuntu/deployments/rails/YTTrends/config/environment.rb:2:in `require'
+	from /home/ubuntu/deployments/rails/YTTrends/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require'
+	from config.ru:4:in `block in <main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn.rb:56:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn.rb:56:in `block in builder'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:752:in `build_app!'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:129:in `start'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/unicorn:23:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/unicorn:23:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/ruby_executable_hooks:15:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-11-02T20:15:48.349899 #4980]  INFO -- : Refreshing Gem list
+/home/ubuntu/deployments/rails/YTTrends/config/application.rb:26:in `<class:Application>': uninitialized constant Rack::Cors (NameError)
+	from /home/ubuntu/deployments/rails/YTTrends/config/application.rb:10:in `<module:YTTrends>'
+	from /home/ubuntu/deployments/rails/YTTrends/config/application.rb:9:in `<top (required)>'
+	from /home/ubuntu/deployments/rails/YTTrends/config/environment.rb:2:in `require'
+	from /home/ubuntu/deployments/rails/YTTrends/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require'
+	from config.ru:4:in `block in <main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn.rb:56:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn.rb:56:in `block in builder'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:752:in `build_app!'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:129:in `start'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/unicorn:23:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/unicorn:23:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/ruby_executable_hooks:15:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-11-02T20:18:31.792195 #5108]  INFO -- : Refreshing Gem list
+/home/ubuntu/deployments/rails/YTTrends/config/application.rb:26:in `<class:Application>': uninitialized constant Rack::Cors (NameError)
+	from /home/ubuntu/deployments/rails/YTTrends/config/application.rb:10:in `<module:YTTrends>'
+	from /home/ubuntu/deployments/rails/YTTrends/config/application.rb:9:in `<top (required)>'
+	from /home/ubuntu/deployments/rails/YTTrends/config/environment.rb:2:in `require'
+	from /home/ubuntu/deployments/rails/YTTrends/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require'
+	from config.ru:4:in `block in <main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn.rb:56:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn.rb:56:in `block in builder'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:752:in `build_app!'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:129:in `start'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/unicorn:23:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/unicorn:23:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/ruby_executable_hooks:15:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-11-02T20:19:20.465790 #5301]  INFO -- : Refreshing Gem list
+/home/ubuntu/deployments/rails/YTTrends/config/application.rb:26:in `<class:Application>': uninitialized constant Rack::Cors (NameError)
+	from /home/ubuntu/deployments/rails/YTTrends/config/application.rb:10:in `<module:YTTrends>'
+	from /home/ubuntu/deployments/rails/YTTrends/config/application.rb:9:in `<top (required)>'
+	from /home/ubuntu/deployments/rails/YTTrends/config/environment.rb:2:in `require'
+	from /home/ubuntu/deployments/rails/YTTrends/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require'
+	from config.ru:4:in `block in <main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn.rb:56:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn.rb:56:in `block in builder'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:752:in `build_app!'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:129:in `start'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/unicorn:23:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/unicorn:23:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/ruby_executable_hooks:15:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-11-02T20:19:52.184379 #5491]  INFO -- : Refreshing Gem list
+/home/ubuntu/deployments/rails/YTTrends/config/application.rb:26:in `<class:Application>': uninitialized constant Rack::Cors (NameError)
+	from /home/ubuntu/deployments/rails/YTTrends/config/application.rb:10:in `<module:YTTrends>'
+	from /home/ubuntu/deployments/rails/YTTrends/config/application.rb:9:in `<top (required)>'
+	from /home/ubuntu/deployments/rails/YTTrends/config/environment.rb:2:in `require'
+	from /home/ubuntu/deployments/rails/YTTrends/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require'
+	from config.ru:4:in `block in <main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn.rb:56:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn.rb:56:in `block in builder'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:752:in `build_app!'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:129:in `start'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/unicorn:23:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/unicorn:23:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/ruby_executable_hooks:15:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-11-02T20:20:25.789766 #5651]  INFO -- : Refreshing Gem list
+/home/ubuntu/deployments/rails/YTTrends/config/application.rb:26:in `<class:Application>': uninitialized constant Rack::Cors (NameError)
+	from /home/ubuntu/deployments/rails/YTTrends/config/application.rb:10:in `<module:YTTrends>'
+	from /home/ubuntu/deployments/rails/YTTrends/config/application.rb:9:in `<top (required)>'
+	from /home/ubuntu/deployments/rails/YTTrends/config/environment.rb:2:in `require'
+	from /home/ubuntu/deployments/rails/YTTrends/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require'
+	from config.ru:4:in `block in <main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn.rb:56:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn.rb:56:in `block in builder'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:752:in `build_app!'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:129:in `start'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/unicorn:23:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/unicorn:23:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/ruby_executable_hooks:15:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.0@yttrends/bin/ruby_executable_hooks:15:in `<main>'
+I, [2016-11-02T20:22:06.168918 #5947]  INFO -- : Refreshing Gem list
+I, [2016-11-02T20:22:07.720385 #5947]  INFO -- : unlinking existing socket=/home/ubuntu/deployments/rails/YTTrends/shared/sockets/unicorn.sock
+I, [2016-11-02T20:22:07.720522 #5947]  INFO -- : listening on addr=/home/ubuntu/deployments/rails/YTTrends/shared/sockets/unicorn.sock fd=9
+I, [2016-11-02T20:22:07.720615 #5947]  INFO -- : worker=0 spawning...
+I, [2016-11-02T20:22:07.721787 #5947]  INFO -- : master process ready
+I, [2016-11-02T20:22:07.728648 #5951]  INFO -- : worker=0 spawned pid=5951
+I, [2016-11-02T20:22:07.728768 #5951]  INFO -- : worker=0 ready
+I, [2016-11-02T20:22:24.610183 #5947]  INFO -- : reaped #<Process::Status: pid 5951 exit 0> worker=0
+I, [2016-11-02T20:22:24.610294 #5947]  INFO -- : master complete
+I, [2016-11-02T20:23:58.493675 #6323]  INFO -- : Refreshing Gem list
+I, [2016-11-02T20:23:59.639147 #6323]  INFO -- : unlinking existing socket=/home/ubuntu/deployments/rails/YTTrends/shared/sockets/unicorn.sock
+I, [2016-11-02T20:23:59.639290 #6323]  INFO -- : listening on addr=/home/ubuntu/deployments/rails/YTTrends/shared/sockets/unicorn.sock fd=9
+I, [2016-11-02T20:23:59.639373 #6323]  INFO -- : worker=0 spawning...
+I, [2016-11-02T20:23:59.640330 #6323]  INFO -- : master process ready
+I, [2016-11-02T20:23:59.656972 #6326]  INFO -- : worker=0 spawned pid=6326
+I, [2016-11-02T20:23:59.657103 #6326]  INFO -- : worker=0 ready
+I, [2016-11-02T20:44:49.823452 #6323]  INFO -- : reaped #<Process::Status: pid 6326 exit 0> worker=0
+I, [2016-11-02T20:44:49.823573 #6323]  INFO -- : master complete
+I, [2016-11-02T20:45:13.090633 #7287]  INFO -- : Refreshing Gem list
+I, [2016-11-02T20:45:15.030221 #7287]  INFO -- : unlinking existing socket=/home/ubuntu/deployments/rails/YTTrends/shared/sockets/unicorn.sock
+I, [2016-11-02T20:45:15.030357 #7287]  INFO -- : listening on addr=/home/ubuntu/deployments/rails/YTTrends/shared/sockets/unicorn.sock fd=9
+I, [2016-11-02T20:45:15.030442 #7287]  INFO -- : worker=0 spawning...
+I, [2016-11-02T20:45:15.031508 #7287]  INFO -- : master process ready
+I, [2016-11-02T20:45:15.043739 #7290]  INFO -- : worker=0 spawned pid=7290
+I, [2016-11-02T20:45:15.043867 #7290]  INFO -- : worker=0 ready
+D, [2016-12-18T06:48:12.615792 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2016-12-25T06:48:26.853290 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-01T06:48:38.601657 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-01T06:49:43.820200 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-08T06:48:58.291827 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-15T06:48:40.455544 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-22T06:48:48.923135 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+E, [2017-01-22T19:00:23.893165 #7287] ERROR -- : reaped #<Process::Status: pid 7290 SIGKILL (signal 9)> worker=0
+I, [2017-01-22T19:00:24.068114 #7287]  INFO -- : worker=0 spawning...
+I, [2017-01-22T19:00:24.206744 #11746]  INFO -- : worker=0 spawned pid=11746
+I, [2017-01-22T19:00:24.206934 #11746]  INFO -- : worker=0 ready
+D, [2017-01-23T09:08:48.363139 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-23T09:09:59.667308 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-23T09:10:54.257909 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-26T21:10:03.041209 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-26T21:17:53.544797 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-26T21:18:49.106621 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-26T21:20:13.034616 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-27T08:42:51.223384 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-27T19:28:42.408153 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-27T19:37:02.454710 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-29T06:48:42.877498 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-02-05T06:47:56.978934 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-02-05T06:48:50.473156 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-02-12T06:48:56.805183 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-02-19T06:48:30.642209 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-02-26T06:48:12.464832 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-02-26T06:49:34.341510 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-03-05T06:48:36.265859 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-03-19T06:47:57.928897 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-03-22T05:12:02.089971 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-03-22T05:16:33.558073 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-03-26T06:48:37.772920 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-04-02T06:48:23.468622 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-04-02T06:49:31.210723 #7287] DEBUG -- : waiting 16.0s after suspend/hibernation

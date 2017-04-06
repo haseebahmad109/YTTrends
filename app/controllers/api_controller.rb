@@ -5,7 +5,7 @@ class ApiController < ApplicationController
   def videos
     query = params.slice(:part, :regionCode, :id, :hl, :pageToken, :chart, :maxResults, :videoCategoryId)
     query[:key] = GOOGLE_API_KEY
-    res = HTTParty.get("https://www.googleapis.com/youtube/v3/videoCategories", query: query)
+    res = HTTParty.get("https://www.googleapis.com/youtube/v3/videos", query: query)
 
     render json: res.body
   end
